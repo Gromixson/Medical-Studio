@@ -9,128 +9,123 @@
       font-family: "Roboto";
       src: url("../fonts/Roboto/Roboto-Regular.ttf")
     }
-/*
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-*/
+@font-face {
+      font-family: "Lato regular";
+      src: url("../fonts/Lato/Lato-Regular.ttf")
+    }
+@font-face {
+      font-family: "Lato bold";
+      src: url("../fonts/Lato/Lato-Bold.ttf")
+    }
 
-body{
+html, body{
     background-color: white;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(../img/background.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+    font-family: 'Lato regular', sans-serif;
+    background: rgb(244, 244, 244);
 }
-.background {
-    height: 358px;
-}
-hr{
+
+hr {
     width: 100%;
     height: 3px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); 
 }
 h1 {
-    font-size: 5em;
-        font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    font-family: 'Lato bold', sans-serif;
 }
-
+h2 {
+    font-family: 'Lato bold', sans-serif;
+}
 /*navi*/
+/*home*/
 
-.navbar-brand {
-    font-size: 24px;
+#offer {
+    padding-top: 150px;
 }
-.navbar-container {
-    padding: 20px 0 20px 0;
+.box {
+    position: relative; 
+    min-height: 320px;
+    
 }
-.navbar.navbar-fixed-top.fixed-theme {
-    background-color: white;
-    border-color: #bebebe;
-    box-shadow: 0 0 5px rgba(39, 39, 39, 0.8);
+.box h2 {
+    margin-left: 30px;
+    padding-top: 40px;
+    color: white;
 }
-.navbar-brand.fixed-theme {
-    font-size: 18px;
+.box p {
+    max-width: 70%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.box button {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.chela-box {
+    background-color: rgba(0, 181, 233, 0.9);
+}
+.ozon-box {
+    background-color: rgba(0, 199, 246, 0.9);
+}
+.homeo-box {
+    background-color: rgba(0, 113, 188, 0.9);
+}
+.satro-box {
+    background-color: rgba(44, 87, 156, 0.9);
+}
+.witac-box {
+    background-color: rgba(28, 65, 122, 0.9);
+}
+.alpha-box {
+    background-color: rgba(20, 46, 87, 0.9);
 }
 
-.navbar-container.fixed-theme {
-    padding-top: 20px;
+/*sub-pages*/
+.information {
+    padding-top: 100px;
+}
+.information h1{
     padding-bottom: 20px;
 }
+.information p {
 
-.navbar-brand.fixed-theme,
-.navbar-container.fixed-theme,
-.navbar.navbar-fixed-top.fixed-theme,
-.navbar-brand,
-.navbar-container{
-    transition: 0.8s;
-    -webkit-transition:  0.8s;
-    text-align: center;
 }
-.navbar-toggle
-{
-    position:relative;
-    float:right;
-    padding:9px 10px;
-    margin-top:8px;
-    margin-right:15px;
-    margin-bottom:8px;
-    background-color:transparent;
-    background-image:none;
-    border:1px solid #444;          
-    border-radius:4px
+/*chelation*/
+#chelation {
+    font-size: 1.2em;
 }
-.icon-bar
-{
-    display:block;
-    width:22px;
-    height:2px;
-    border-radius:1px;
-    border:1px solid #444;
+/*ozone*/
+#ozone {
+    font-size: 1.2em;
 }
-
-/*services*/
-
-#services {
-    margin-top: 200px;
-    text-align: center;
+/*homeopathy*/
+#homeopathy {
+    font-size: 1.2em;
 }
-#services h1 {
-    font-size: 5em;
+/*hearth*/
+#hearth {
+    font-size: 1.2em;
 }
-#services h3 {
-    font-size: 3em;
+#hearth img {
+    margin-top: 150px;
 }
-.offer {
-    margin: 40px;
-    padding: 30px;
-    margin-bottom: 60px;
+/*witamin-c*/
+#witamin-c {
+    font-size: 1.2em;
 }
-.offer img {
-    border-radius: 30px;
-    box-shadow: 2px black ;
-    -webkit-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.75);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+/*acid*/
+#acid {
+    font-size: 1.2em;
 }
-.offer a {
-    text-decoration: none;
-    display: block;
-}
-.offer h2 {
-    font-size: 2.2em;
-}
-
 /* about */
-
 #about {
     text-align: center;
-    background: rgb(255, 255, 255);
     padding-bottom: 20px;
+    min-height: 100%;
 }
 #about h2{
     margin-bottom: 40px;
@@ -154,16 +149,9 @@ h1 {
 }
 
 /* contact */
-
 #contact {
     text-align: center;
-    padding-top: 40px;
     padding-bottom: 40px;
-    background: url(../img/contact-background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
 }
 #contact h2{
     font-size: 2.7em
@@ -202,56 +190,18 @@ h1 {
     bottom: 0;
     left: 0;
     padding: 1rem;
+    margin-top: 50px;
 }
 
-/*subpages*/
 
-    #information {
-    margin-top: 200px;
-    text-align: center;
-    padding-bottom: 40px;
-}
-    #information h2{
-    margin-bottom: 50px;
-}
-.text, #information p {
-    font-size: 1.15em;
-    border: 1px solid rgb(212, 212, 212);
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-    line-height: 25px;
-    font-family: 'Arial', sans-serif;
-    text-align: justify;
-    padding: 25px;
-    box-shadow: 2px black ;
-    -webkit-box-shadow: 0px 0px 14px 31px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
-}
-    #information img {
-    margin-top: 30%;
-    border: 2px solid #767676;
-    box-shadow: 2px black ;
-    -webkit-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 24px 3px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.75);
-}
-  @media (max-width: 968px) {
-   #information p{
-       width: 100%;
-}
-      #information img {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-}
+/*rwd*/
 @media (max-width: 768px) {
-    .offer img {
+    #hearth img {
+        margin: 0 auto;
         margin-top: 50px;
+        margin-bottom: 50px;
     }
-    .offer h2 {
-        font-size: 1.7em;
-}
+    h1 {
+        font-size: 2.6em;
+    }
 }
