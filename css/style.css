@@ -42,14 +42,14 @@ hr {
 h1 {
     font-size: 4em;
     font-family: 'Lato bold', sans-serif;
+    color: rgba(0, 113, 188, 0.9);
 }
 h2 {
     font-family: 'Lato bold', sans-serif;
+    color: rgba(0, 113, 188, 0.9);
 }
 /*navi*/
-.navbar-fixed-top {
-    height: 70px;
-}
+
 /*home*/
 
 #offer {
@@ -59,6 +59,7 @@ h2 {
 .box {
     position: relative; 
     min-height: 320px;
+    border: rgb(244, 244, 244) solid 6px;
 }
 .box h2 {
     margin-left: 30px;
@@ -103,7 +104,8 @@ h2 {
     padding-bottom: 20px;
 }
 .information p {
-    font-size: 1.2em
+    font-size: 1.2em;
+    padding-bottom: 40px;
 }
 /*chelation*/
 #chelation {
