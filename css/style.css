@@ -42,11 +42,19 @@ hr {
 h1 {
     font-size: 4em;
     font-family: 'Lato bold', sans-serif;
+<<<<<<< HEAD
     color: rgb(0, 113, 188);
 }
 h2 {
     font-family: 'Lato bold', sans-serif;
     color: rgb(0, 113, 188);
+=======
+    color: rgba(51, 133, 185, 0.9);
+}
+h2 {
+    font-family: 'Lato bold', sans-serif;
+    color: rgba(51, 133, 185, 0.9);
+>>>>>>> origin/master
 }
 /*navi*/
 .navbar {
@@ -91,22 +99,22 @@ h2 {
     left: 30px;
 }
 .chela-box {
-    background-color: rgba(0, 181, 233, 0.9);
+    background-color: rgba(112, 179, 221, 0.9);
 }
 .ozon-box {
-    background-color: rgba(0, 199, 246, 0.9);
+    background-color: rgba(51, 133, 185, 0.9);
 }
 .homeo-box {
-    background-color: rgba(0, 113, 188, 0.9);
+    background-color: rgba(51, 133, 185, 0.9);
 }
 .satro-box {
-    background-color: rgba(44, 87, 156, 0.9);
+    background-color: rgba(23, 101, 150, 0.9);
 }
 .witac-box {
-    background-color: rgba(28, 65, 122, 0.9);
+    background-color: rgba(23, 101, 150, 0.9);
 }
 .alpha-box {
-    background-color: rgba(20, 46, 87, 0.9);
+    background-color: rgba(23, 101, 150, 0.9);
 }
 
 /*sub-pages*/
