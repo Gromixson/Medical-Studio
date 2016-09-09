@@ -45,22 +45,30 @@ h3 {
 }
 /*navi*/
 .navbar {
-    padding-bottom: 20px;
-}
-.navbar .container {
-    padding-top: 15px;
+    padding-bottom: 0px;
 }
 .navbar-default .navbar-nav > li > a{
-    color: rgba(51, 133, 185, 0.9);
+    color: rgb(0, 0, 0);
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: rgb(0, 0, 0);
+    color: rgba(51, 133, 185, 0.9);
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
+}
+.navbar-brand img {
+    height: 65px;
+}
+.navbar-nav {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 1.2em
+}
+.navbar-nav a {
+    margin-left: 13px;
 }
 .navbar-collapse.in {
     overflow: hidden;
@@ -68,7 +76,6 @@ h3 {
     height: auto !important;
 }
 /*home*/
-
 #offer {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -111,7 +118,6 @@ h3 {
 .alpha-box {
     background-color: rgba(23, 101, 150, 0.9);
 }
-
 /*sub-pages*/
 .information {
     padding-top: 100px;
@@ -224,7 +230,17 @@ h3 {
 }
 
 
-/*rwd*/
+/*Media*/
+@media (max-width: 1200px) {
+    .navbar-nav a {
+        margin-left: 0px;
+        font-size: 0.9em;
+}
+}
+@media (max-width: 992px) {
+   
+}
+
 @media (max-width: 768px) {
     #hearth img {
         margin: 0 auto;
