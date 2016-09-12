@@ -163,10 +163,13 @@ h3 {
     min-height: 100%;
 }
 #about h2{
+       font-size: 4em;
     margin-bottom: 40px;
 }
 #about p{
     font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
 }
 #about img {
     border-radius: 30px;
