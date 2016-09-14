@@ -87,7 +87,7 @@ h3 {
 }
 .box {
     position: relative; 
-    min-height: 420px;
+    height: 420px;
     border: rgb(244, 244, 244) solid 6px;
 }
 .box h2 {
@@ -127,6 +127,12 @@ h3 {
 }
 .chela-box p {
     max-width: 50%;
+}
+.box img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 409px;
 }
 .ozon-box {
     background-color: rgba(51, 133, 185, 0.9);
@@ -282,6 +288,9 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        height: 100px;
+    }
     #hearth img {
         margin: 0 auto;
         margin-top: 50px;
@@ -297,7 +306,11 @@ h3 {
     max-width: 100%;
 }
 }
-@media (max-width: 468px) {
-    .box {
-    }
+@media (max-width: 395px) {
+       .navbar {
+        height: 60px;
+}
+    .navbar-brand img {
+    height: 38px;
+}
 }
