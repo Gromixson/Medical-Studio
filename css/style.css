@@ -17,13 +17,18 @@
       font-family: "Lato bold";
       src: url("../fonts/Lato/Lato-Bold.ttf")
     }
+@font-face {
+      font-family: "Lato light";
+      src: url("../fonts/Lato/Lato-Light.ttf")
+    }
+
+
 html {
   height: 100%;
   box-sizing: border-box;
 }
 
 body{
-    background-color: white;
     font-size: 14px;
     font-family: 'Lato regular', sans-serif;
     background: rgb(244, 244, 244);
@@ -65,7 +70,7 @@ h3 {
 .navbar-nav {
     margin-top: 30px;
     width: 100%;
-    font-size: 1.2em
+    font-size: 1.2em;
 }
 .navbar-nav a {
     margin-left: 13px;
@@ -82,26 +87,46 @@ h3 {
 }
 .box {
     position: relative; 
-    min-height: 320px;
+    min-height: 420px;
     border: rgb(244, 244, 244) solid 6px;
 }
 .box h2 {
     margin-left: 30px;
     padding-top: 40px;
-    color: white;
+    color: rgb(244, 244, 244);;
+    font-size: 3em;
 }
 .box p {
     max-width: 70%;
     margin-left: 30px;
     margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 25px;
 }
 .box button {
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    left: 40px;
+    background: rgba(112, 179, 221, 0.9);
+    font-family: 'Lato light', sans-serif;
+    color: rgb(244, 244, 244);
+    border: rgb(244, 244, 244) 1px solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+}
+.box button:hover {
+    background-color: rgba(45, 132, 186, 0.9);; 
+    color: white;
 }
 .chela-box {
     background-color: rgba(112, 179, 221, 0.9);
+}
+.chela-box p {
+    max-width: 50%;
 }
 .ozon-box {
     background-color: rgba(51, 133, 185, 0.9);
@@ -264,5 +289,15 @@ h3 {
     }
     h1 {
         font-size: 2.6em;
+    }
+    .box {
+
+    }
+    .chela-box p {
+    max-width: 100%;
+}
+}
+@media (max-width: 468px) {
+    .box {
     }
 }

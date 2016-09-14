@@ -4,9 +4,6 @@
 		});
 		wow.init();
 
-
-});
-
 //smooth-scrolling
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
